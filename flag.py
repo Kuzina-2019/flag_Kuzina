@@ -11,7 +11,15 @@ def draw1():
     rect_point = [(20, 10), (30, 280)]
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
+def draw3():
+    rect_color = pygame.Color("blue")
+    rect_width = 0
+    rect_point = [(50, 60), (200, 50)]
+    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
+
 draw1()
+draw3()
 
 while pygame.event.wait().type != pygame.QUIT:
     pygame.display.flip()
