@@ -24,10 +24,17 @@ def draw2():
     rect_point = [(50, 10), (200, 50)]
     pygame.draw.rect(screen, rect_color, rect_point, rect_width)
 
+def draw4():
+    rect_color = pygame.Color("red")
+    rect_width = 0
+    rect_point = [(50, 110), (200, 50)]
+    pygame.draw.rect(screen, rect_color, rect_point, rect_width)
+
 
 draw1()
 draw2()
 draw3()
+draw4()
 
 
 while pygame.event.wait().type != pygame.QUIT:
