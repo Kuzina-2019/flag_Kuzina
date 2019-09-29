@@ -35,7 +35,7 @@ draw1()
 draw2()
 draw3()
 draw4()
-draw3()
+
 
 
 while pygame.event.wait().type != pygame.QUIT:
